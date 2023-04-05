@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Advanced Search</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/icons8-google.svg" />
+  <link rel="stylesheet" href="./specialStyles.css">
+</head>
+<body>
+  <nav class="nav__bar">
+    <figure class="logo__wrapper">
+      <img src="./assets//Transparent_google_logo_2015.png" alt="Google Logo" class="logo">
+    </figure>
+    <ul class="nav__links">
+      <li class="nav__link">
+        <a href="./index.html" class="nav__link--anchor">Search</a>
+      </li>
+      <li class="nav__link">
+        <figure class="icon__wrapper">
+            <img src="./assets/icons8-apps-24.png" alt="Google Apps" class="icon">
+        </figure>
+      </li>
+      <li class="nav__link">
+        <figure class="icon__wrapper">
+            <img src="./assets/icons8-person-24.png" alt="Google Account" class="icon">
+        </figure>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Advanced Search</h1>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <form class="input__form" method="GET" action="https://google.com/search">
+          <div class="headers">
+            <h2>Find pages with...</h2>
+            <h2>To do this in the search box.</h2>
+          </div>
+          <table class="input__form--table">
+            <tbody>
+              <tr>
+                <td class="first__col">all these words:</td>
+                <td class="second__col">
+                  <input class="input__form--field" type="text" name="q" autocomplete="off">
+                </td>
+                <td class="third__col">Type the important words: tri-colour rat terrier</td>
+              </tr>
+              <tr>
+                <td class="first__col">this exact word or phrase:</td>
+                <td class="second__col">
+                  <input class="input__form--field" type="text" name="q" autocomplete="off">
+                </td>
+                <td class="third__col">Put exact words in quotes: "rat terrier"</td>
+              </tr>
+              <tr>
+                <td class="first__col">this exact word or phrase:</td>
+                <td class="second__col">
+                  <input class="input__form--field" type="text" name="q" autocomplete="off">
+                </td>
+                <td class="third__col">Type OR between all the words you want: miniature OR standard
+                </td>
+              </tr>
+              <tr>
+                <td class="first__col">none of these words:</td>
+                <td class="second__col">
+                  <input class="input__form--field" type="text" name="q" autocomplete="off">
+                </td>
+                <td class="third__col">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td>
+              </tr>
+              <tr>
+                <td class="first__col"></td>
+                <td class="second__col submit__btn--col">
+                  <input class="input__form--btn" type="submit" value="Advanced Search">
+                </td>
+                <td class="third__col"></td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <span id="country__wrapper">
+          <h6 id="country">Egypt</h6>
+        </span>
+        <hr>
+        <div class="footer__links--grp">
+          <ul class="footer__links">
+            <li class="footer__link footer__link--left">
+              <a href="" class="footer__link--anchor">Help</a>
+            </li>
+            <li class="footer__link footer__link--left">
+              <a href="" class="footer__link--anchor">Privacy</a>
+            </li>
+            <li class="footer__link footer__link--left">
+              <a href="" class="footer__link--anchor">Terms</a>
+            </li>
+          </ul>
+          <div class="footer__links"></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
